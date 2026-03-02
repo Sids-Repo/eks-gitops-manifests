@@ -23,7 +23,7 @@ spec:
       serviceAccountName: sample-app-sa
       containers:
       - name: app
-        image: ${ECR_REPOSITORY_URL}:${IMAGE_TAG}
+        image: image: 123456789012.dkr.ecr.ap-south-1.amazonaws.com/sample-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
