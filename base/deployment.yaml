@@ -23,7 +23,7 @@ spec:
       serviceAccountName: sample-app-sa
       containers:
         - name: app
-          image: "604604739963.dkr.ecr.ap-south-1.amazonaws.com/my-gitops-cluster-app:latest"
+          image: "604604739963.dkr.ecr.ap-south-1.amazonaws.com/my-gitops-cluster-app:otel"
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
